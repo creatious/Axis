@@ -41,7 +41,7 @@ const DelegatesTable = () => {
       <div className="back-link">
         <Link to="/tables">Back to Tables</Link>
       </div>
-      <h2>Delegate Details</h2>
+      <h2>Delegate Personal Details</h2>
       <br />
       <div>
         <Link to="/delegate-form" className="btn btn-primary">Add New Delegate</Link>
