@@ -1,55 +1,53 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom';
 import './table.css'
-import { getUsersList, deleteUser } from 'service/users'
 
-const Tables = () => {
-    const [usersInfo, setUsersInfo] = useState([])
 
-    useEffect(() => {
-        getUsersList().then(users => {
-            setUsersInfo(users)
-
-        })
-    }, [])
-
-    const handleDelete = (user) => {
-        deleteUser(user).then(() => {
-            getUsersList().then(users => {
-                setUsersInfo(users)
-
-            })
-        })
-    }
+function Tables() {
     return (
-        <div>
-            <h2>Users Personal Details</h2>
-            <div className="tables">
-                <table className="ui celled table">
-                    <thead>
-                        <tr>
-                            <th>Fullname</th>
-                            <th>Username</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>Website</th>
-                            <th>Company</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {usersInfo.map(user => (
-                            <tr key={user.id}>
-                                <td>{user.name}</td>
-                                <td>{user.username}</td>
-                                <td>{user.email}</td>
-                                <td>{user.phone}</td>
-                                <td>{user.website}</td>
-                                <td>{user.company.name}</td>
-                                <td><button onClick={() => handleDelete(user)}>Delete</button></td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
+        <div className="tables container-sm">
+            <div className="TableLink">
+                <Link to="/menu">Back to Menu</Link>
             </div>
+            <h2>List of Tables</h2>
+            {/* <Link to="/users-table" classNameName="shadow-inner ...">Users Table</Link>
+            <br />
+            <br />
+            <Link to="/delegates-table" classNameName="shadow-inner ...">Delegates Table</Link>
+
+            */}
+            <div className="row">
+                <div className="col-sm-4">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Users Table</h5>
+                            <p className="card-text">Click the button below to view All Users.</p>
+                            <Link to="/users-table" className="btn btn-primary">Button</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-4">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Delegates Table</h5>
+                            <p className="card-text">Click the button below to view All Delegates.</p>
+                            <Link to="/delegates-table" className="btn btn-primary">Button</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-4">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Clients Table</h5>
+                            <p className="card-text">Click the button below to view All Clients.</p>
+                            <Link to="#" className="btn btn-primary">Button</Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="absolute bottom-10 left-14...">
+            </div>
+
         </div>
     )
 }

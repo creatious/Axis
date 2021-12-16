@@ -208,5 +208,54 @@
       }
     }
   ],
-  "delegates": []
+  "delegates": [
+    {
+      "fullName": "Isioma Nwabueze",
+      "username": "isynwabueze",
+      "email": "isynwabueze@gmail.com",
+      "phone": "07063565469",
+      "type": "Staff",
+      "id": "f4863eb8-adad-46f1-b381-0c30b0c9d301"
+    },
+    {
+      "fullName": "Silas Ntinuoku",
+      "username": "Nsilas",
+      "email": "silasntinuoku@gmail.com",
+      "phone": "08032936517",
+      "type": "Staff",
+      "id": "9160600b-9721-472f-a1e7-afaa6bca8336"
+    },
+    {
+      "fullName": "Ozor Onyekwena",
+      "username": "Ozi",
+      "email": "onyekwenaozi@gmail.com",
+      "phone": "08130726196",
+      "type": "Trainee",
+      "id": "483d58f4-7e1d-4308-8f2f-b0c0f3f7a1f1"
+    },
+    {
+      "fullName": "sandra gegeri",
+      "username": "Sgegeri",
+      "email": "sandra@gmail.com",
+      "phone": "08038854144",
+      "type": "Trainee",
+      "id": "fa98d417-defe-4c5a-a01e-2d0b9ae918b0"
+    },
+    {
+      "fullName": "omar melendrez",
+      "username": "Omelendrez",
+      "email": "omar.melendrez@gmail.com",
+      "phone": "08174526059",
+      "type": "Trainee",
+      "id": "42a470c3-e2d9-427d-9620-b25f84479b84"
+    },
+    {
+      "fullName": "Ikechukwu Nwabueze",
+      "username": "ikeboyblue",
+      "email": "nwabuezeike@gmail.com",
+      "phone": "08034020426",
+      "type": "Trainee",
+      "id": "d12ab345-62c5-4fe6-9774-a7449d8f0cd5"
+    }
+  ]
 }

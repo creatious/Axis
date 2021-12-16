@@ -4,10 +4,23 @@
     font-size: 30px;
     background: #fff;
     border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
-    padding: 50px 70px 0 50px;
-    width: 240px;
-    margin: 30px;
+    box-shadow: 0 5px 5px #ccc;
+    padding: 20px 50px 0 50px;
+    width:240px;
+    margin: 50px;
     float: left;
-    height: 5.5rem;
+    height: 7.5rem;
   }
+
+  .return{
+    position: relative;
+    top: 490px;
+    right: 400px;
+  }
+
+  .backButton{
+    text-align: center;
+    position: relative;
+    top: 450px;
+    right: 500px;
+}

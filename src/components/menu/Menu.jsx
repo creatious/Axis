@@ -1,17 +1,20 @@
 import React from 'react'
-import './menu.css'
 import { Link } from 'react-router-dom';
+import './menu.css'
 
 
-function menu() {
+function Menu() {
     return (
-        <div>
+        <div className="container">
             <Link to="/search" className="menu-option">Search</Link>
             <Link to="/reports" className="menu-option">Reports</Link>
             <Link to="/tables" className="menu-option">Tables</Link>
-            <Link to="/tables" className="menu-option">Forms</Link>
+            <Link to="/delegate-form" className="menu-option">Forms</Link>
+            <div className="backButton">
+                <Link to="/">Back to Home</Link>
+            </div>
         </div>
     )
 }
 
-export default menu
+export default Menu

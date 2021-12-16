@@ -7,3 +7,11 @@
   .home h1 {
     text-align: center;
   }
+  
+  /* .home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+  } */
