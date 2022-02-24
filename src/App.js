@@ -20,17 +20,17 @@ function App() {
   return (
     <BrowserRouter >
       <Header />
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/menu" component={Menu} />
-          <Route path="/search" component={Search} />
-          <Route path="/reports" component={Reports} />
-          <Route path="/tables" component={Tables} />
-          <Route path="/delegate-form" component={DelegateForm} />
-          <Route path="/users-table" component={UsersTable} />
-          <Route path="/delegates-table" component={DelegatesTable} />
-          
-        </Switch>
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/menu" component={Menu} />
+        <Route path="/search" component={Search} />
+        <Route path="/reports" component={Reports} />
+        <Route path="/tables" component={Tables} />
+        <Route path="/delegate-form" component={DelegateForm} />
+        <Route path="/users-table" component={UsersTable} />
+        <Route path="/delegates-table" component={DelegatesTable} />
+
+      </Switch>
       <Footer />
     </BrowserRouter>
   );
