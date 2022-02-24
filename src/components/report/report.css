@@ -1,6 +1,8 @@
-.backButton{
-    text-align: center;
-    position: relative;
-    top: 400px;
-    right: 200px;
+
+h2 {
+  text-align: center;
+}
+
+.backMenu {
+  margin: 10px 0 0 90%;
 }

@@ -1,5 +1,4 @@
 .menu-option {
-    position: relative;
     text-align: center;
     font-size: 30px;
     background: #fff;
@@ -12,15 +11,6 @@
     height: 7.5rem;
   }
 
-  .return{
-    position: relative;
-    top: 490px;
-    right: 400px;
-  }
-
   .backButton{
-    text-align: center;
-    position: relative;
-    top: 450px;
-    right: 500px;
-}
+    margin: 20px 10px 0 0;
+ }

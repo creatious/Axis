@@ -1,5 +1,5 @@
 .back-link {
-    text-align: right;
+  margin: 10px 0 0 90%;
 }
 
 .table h2{
@@ -10,5 +10,8 @@
     margin:0 6px;
 }
 
+.TableLink {
+  margin: 10px 0 0 90%;
+}
 
 

@@ -7,9 +7,9 @@ function Header() {
   return (
     <div className="header">
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+        <h1 className="navbar-brand">Axis</h1>
         <div className="container">
           <div className="container">
-            <h1 className="navbar-brand">Axis</h1>
           </div>
 
           <button

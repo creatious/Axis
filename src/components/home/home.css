@@ -5,7 +5,10 @@
   }
   
   .home h1 {
-    text-align: center;
+    margin-top: 150px;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 200%;
   }
   
   /* .home{
