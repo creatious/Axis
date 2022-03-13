@@ -5,5 +5,5 @@ export default axios.create({
         'Accept': 'application/json',
         'Content-Type': 'application/json'
     },
-    baseURL: 'http://localhost:3001'
+    baseURL: process.env.REACT_APP_API_URL || 'http://localhost:3001'
 })
